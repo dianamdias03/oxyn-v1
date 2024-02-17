@@ -1,0 +1,67 @@
+.page-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 4% 12% 4% 12%;
+  }
+  
+  .text-section {
+    flex: 1;
+    min-width: 300px; /* O mínimo para garantir a responsividade */
+    text-align: start;
+  }
+  
+  .image-section {
+    flex: 1;
+    min-width: 300px; /* O mínimo para garantir a responsividade */
+  }
+  
+  .image-section img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .button-section{
+    padding-top: 20px;
+  }
+  
+  .consultancy-button {
+    /* Estilos do botão */
+  }
+
+  .subtitle{
+    font-size: 0.8rem;
+    color: #359EFF;
+  }
+
+  @media (max-width: 1210px) {
+    .page-container{
+        margin: 4% 15% 4% 15%;
+        flex-direction: column;
+    }
+    .image-section img {
+      max-width: 70%;
+      height: auto;
+    }
+
+    .button-section{
+      display: flex;
+      justify-content: center; /* centraliza horizontalmente */
+      align-items: center; /* centraliza verticalmente */
+    }
+
+    .text-section {
+      text-align: center;
+    }
+  }
+  
+  /* Media query para telas menores (tablets e celulares) */
+  @media (max-width: 950px) {
+    .image-section img {
+      max-width: 90%;
+      height: auto;
+    }
+  }
+
+  

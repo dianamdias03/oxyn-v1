@@ -1,0 +1,133 @@
+
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px; /* Padding em telas menores */
+    margin: 0 20% 0 20%;
+  }
+  
+  .logo, .contact-info, .menu-toggle, .menu {
+    
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center; /* Centraliza verticalmente a logo e o texto */
+  }
+  
+  .logo img {
+    max-height: 70px; /* Ajusta conforme necessário */
+    width: auto; /* Mantém as proporções da imagem */
+    object-fit: contain;
+  }
+
+  .logo span {
+    font-size: 1rem; /* Ajusta o tamanho do texto conforme necessário */
+    color: #333; /* Ajusta a cor do texto conforme necessário */
+  }
+  
+  .contact-info {
+    text-align: right;
+    flex-basis: 20%;
+    padding: 5px 10px; 
+  }
+  
+  .menu {
+    display: flex;
+    justify-content: center;
+    flex-basis: 60%;
+  }
+  
+  .menu ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .menu ul li a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .menu-toggle {
+    display: none; /* Esconde por padrão e mostra apenas em telas menores */
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    font-size: 1rem; /* Ajuste o tamanho conforme necessário */
+    color: #333; /* A cor pode ser ajustada para combinar com o tema do cabeçalho */
+  }
+
+  .menu.is-open {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 100%; /* Ajusta para que o menu se expanda logo abaixo do cabeçalho */
+    left: 0;
+    right: 0;
+    background-color: #fff; /* Cor de fundo do menu dropdown */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Sombra para dar profundidade */
+    z-index: 1000; /* Garante que o menu fique acima de outros conteúdos */
+  }
+
+  .contact-info {
+    display: flex;
+    align-items: center; /* Garante que o ícone e o texto estejam alinhados verticalmente */
+    gap: 10px; /* Adiciona um espaço entre o ícone e o texto */
+    padding: 5px 10px; /* Ajusta o preenchimento */
+    max-height: 70px;
+    border: 2px solid #359EFF; /* Define a espessura e a cor da borda */
+    border-radius: 10px; /* Ajuste para mais ou menos arredondado conforme necessário */
+    display: flex;
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    background-color: #359EFF;
+    color: #fff;
+    font-weight: bold;
+  }
+
+  
+  
+  /* Responsivo para Tablet e Celular */
+
+  @media (max-width: 1310px) {
+    .header{
+        margin: 0 8% 0 8%;
+    }
+  }
+
+  @media (max-width: 950px) {
+    .contact-info {
+      display: none;
+    }
+
+    .header {
+        justify-content: space-between; /* Garante que a logo e o menu hambúrguer estejam nas extremidades */
+        margin: 0;
+    }
+  
+    .menu {
+      display: none;
+    }
+  
+    .menu.is-open {
+      display: flex;
+      position: absolute;
+      flex-direction: column;
+      background-color: white;
+      top: 60px; /* Ajuste conforme necessário */
+      left: 0;
+      width: 100%;
+      align-items: center;
+    }
+  
+    .menu ul {
+      flex-direction: column;
+    }
+  
+    .menu-toggle {
+       display: block;
+    }
+  }
