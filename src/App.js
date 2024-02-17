@@ -29,7 +29,7 @@ function App() {
         altImage={'Planta simbolizando economia'}
         imageRightSide={true}
       />
-      <Text title={'Juntos, vamos transformar desafios em oportunidades.'} paragraphs={['Descubra como a Oxyn Pages pode ajudar você a se conectar com aqueles que estão procurando exatamente o que você tem a oferecer.']}/>
+      <Text title={'Juntos, vamos transformar desafios em oportunidades.'} paragraphs={['Descubra como a Oxyn Pages pode ajudar você a se conectar com aqueles que estão procurando exatamente o que você tem a oferecer.']} background={'blue'}/>
       <TextImage 
         title={'Sabemos que cada pessoa tem suas próprias necessidades e preocupações'}
         paragraphs={[
@@ -42,6 +42,7 @@ function App() {
         altImage={'Planta simbolizando economia'}
         imageRightSide={false}
       />
+      <Text title={'Você só paga após seu site e estrutura de marketing estiver funcionando'} paragraphs={['Caso não goste do serviço, você pode cancelar dentro de 30 e devolveremos o seu dinheiro.']} background={'grey'}/>
       <Footer/>
     </div>
   );

@@ -4,14 +4,19 @@
     text-align: center;
     margin: 0;
     padding: 0;    
-    color: white;
   }
 
   .paragraph-section p{
     font-size: 1.2rem;
   }
 
-  .background{
-    background-color: #4faaff;;
+  .background-grey{
+    background-color: #f0f0f0;
+    color: black;
+  }
+  
+  .background-blue{
+    background-color: #4faaff;
+    color: white;
   }
   
