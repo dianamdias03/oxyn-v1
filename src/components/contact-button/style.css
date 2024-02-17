@@ -8,18 +8,25 @@
     display: flex;
     align-items: center; /* Centraliza o conteúdo verticalmente */
     justify-content: center; /* Centraliza o conteúdo horizontalmente */
-    background-color: #359EFF;
-    color: #fff;
     font-weight: bold;
     font-size: 1rem;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    justify-content: center;
+  }
+
+  .blue-color{
+    background-color: #359EFF;
+    color: #fff;
+  }
+
+  .white-color{
+    background-color: #fff;
+    color: black;
   }
 
   .info-button:hover {
     background-color: #357ebd; /* Cor do botão ao passar o mouse */
   }
 
-  .container {
-    
+  .info-button.white-color:hover{
+    background-color: #f0f0f0;
   }

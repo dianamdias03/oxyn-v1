@@ -1,0 +1,17 @@
+.footer-section {
+  width: 100%; /* Garante que o rodapé ocupe a largura total */
+  padding: 10px 0; /* Adiciona um pouco de espaço acima e abaixo do conteúdo */
+  text-align: center; /* Centraliza o conteúdo do rodapé */
+  box-sizing: border-box; /* Garante que o padding não adicione largura extra */
+  background-color: #4faaff; /* Cor de fundo do rodapé */
+  color: white; /* Cor do texto */
+}
+
+.footer-content {
+  max-width: 1200px; /* Largura máxima do conteúdo para garantir a legibilidade */
+  margin: 0 auto; /* Centraliza o conteúdo se não ocupar a largura total */
+  display: flex; /* Usa flexbox para alinhar os itens */
+  flex-direction: column; /* Organiza os itens em colunas */
+  align-items: center; /* Centraliza os itens horizontalmente */
+  gap: 10px; /* Espaço entre os itens */
+}

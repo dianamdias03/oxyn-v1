@@ -36,6 +36,31 @@
 }
 
 .border {
-  border-bottom: 1px solid #e2e2e2;
+  border-top: 1px solid #e2e2e2;
 }
 
+.page-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 4% 12% 0 12%;
+  padding-bottom: 20px;
+  justify-content: space-between;
+  align-items: center; 
+}
+
+@media (max-width: 1210px) {
+  .page-container{
+      margin: 4% 15% 0% 15%;
+      flex-direction: column;
+      padding-bottom: 150px;
+  }
+}
+
+@media (max-width: 950px) {
+  .page-container{
+    margin: 4% 10% 0% 10%;
+    padding-bottom: 20px;
+  }
+}

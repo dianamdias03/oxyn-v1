@@ -11,7 +11,7 @@ export const Header = () => {
   };
 
   return (
-    <div class="border">
+    <div className="border">
     <header className="header">
       <div className="logo">
         <img src="/logo.webp" alt="Logo" />

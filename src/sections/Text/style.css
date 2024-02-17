@@ -1,0 +1,17 @@
+  .paragraph-section {
+    flex: 1;
+    min-width: 300px; /* O mínimo para garantir a responsividade */
+    text-align: center;
+    margin: 0;
+    padding: 0;    
+    color: white;
+  }
+
+  .paragraph-section p{
+    font-size: 1.2rem;
+  }
+
+  .background{
+    background-color: #4faaff;;
+  }
+  
