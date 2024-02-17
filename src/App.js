@@ -11,7 +11,7 @@ function App() {
         title={'São muitos os desafios dos primeiros passos na carreira de psicologia clínica'}
         paragraphs={['Imagine dedicar-se totalmente aos seus pacientes, enquanto a Oxyn Pages conecta você a pessoas que precisam de atendimento. Você pode dedicar-se em se aprimorar no atendimento clinico e nós cuidamos do resto.']} 
         paragraphBold={'Clique no botão abaixo e descubra como podemos te ajudar.'}
-        image={'/about.png'}
+        image={'/about.webp'}
         altImage={'Homem olhando para o celular com notificações'}/>
       <TextImage 
         subtitle={'NÃO DEIXE DINHEIRO NA MESA'} 
@@ -21,7 +21,7 @@ function App() {
           ,'Com os clientes que vamos ajudar você a conseguir, sua prática clinica não apenas sobreviverá, mas prosperará. Você terá a liberdade de focar no seu desenvolvimento profissional, expandir suas habilidades e, o mais importante, transformar a vida de seus pacientes.'
         ]}
         paragraphBold={'Está pronta para deixar as incertezas para trás e dar um grande passo em direção ao sucesso na sua carreira? Clique no botão abaixo e vamos juntos construir o futuro próspero que você e sua prática clínica merecem.'}
-        image={'/finances.png'}
+        image={'/finances.webp'}
         altImage={'Planta simbolizando economia'}/>
     </div>
   );

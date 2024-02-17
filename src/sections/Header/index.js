@@ -14,7 +14,7 @@ export const Header = () => {
     <div class="border">
     <header className="header">
       <div className="logo">
-        <img src="/logo.png" alt="Logo" />
+        <img src="/logo.webp" alt="Logo" />
         <span style={{color: '#4B9AD8', fontWeight: 'bold'}}>OXYN</span>
       </div>
       <nav className={`menu ${isMenuOpen ? 'is-open' : ''}`}>
