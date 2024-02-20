@@ -29,10 +29,24 @@
   }
   
   .contact-info {
-    text-align: right;
     flex-basis: 20%;
-    padding: 5px 10px; 
+    gap: 10px; /* Adiciona um espaço entre o ícone e o texto */
+    padding: 12px 12px; /* Ajusta o preenchimento */
+    max-width: 60%;
+    border-radius: 10px; /* Ajuste para mais ou menos arredondado conforme necessário */
+    display: flex;
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    font-weight: bold;
+    font-size: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: none;
   }
+
+  .contact-info:hover {
+    background-color: #357ebd; /* Cor do botão ao passar o mouse */
+  }
+
   
   .menu {
     display: flex;
